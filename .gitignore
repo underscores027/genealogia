@@ -1,0 +1,17 @@
+# Configuração local (credenciais do banco): o modelo é includes/config.exemplo.php
+/includes/config.php
+
+# Arquivos enviados pelos usuários (fotos e documentos)
+/uploads/*
+!/uploads/.htaccess
+
+# Backups e despejos locais
+*.zip
+*.bak
+/backup/
+
+# Editor / sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

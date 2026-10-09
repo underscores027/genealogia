@@ -1,0 +1,4 @@
+# Arquivos enviados pelos usuários nunca devem ser executados como script.
+<FilesMatch "\.(php[0-9]?|phtml|phar|pl|py|cgi|sh|asp|aspx|jsp)$">
+    Require all denied
+</FilesMatch>

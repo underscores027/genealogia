@@ -1,0 +1,5 @@
+# Fim de linha LF em todo o projeto (evita diffs falsos entre Windows e servidor Linux)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
