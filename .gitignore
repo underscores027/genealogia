@@ -1,9 +1,28 @@
-# Configuração local (credenciais do banco): o modelo é includes/config.exemplo.php
-/includes/config.php
+# Dependências e saídas de build
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+
+# Variáveis de ambiente (credenciais): o modelo é .env.exemplo
+.env
+.env.*
+!.env.exemplo
 
 # Arquivos enviados pelos usuários (fotos e documentos)
-/uploads/*
-!/uploads/.htaccess
+/uploads/
+
+# Configuração pessoal do Claude Code
+.claude/settings.local.json
+
+# Código antigo em PHP (referência para a reescrita)
+/legado/includes/config.php
+/legado/uploads/*
+!/legado/uploads/.htaccess
 
 # Backups e despejos locais
 *.zip
